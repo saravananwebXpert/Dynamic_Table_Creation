@@ -1,0 +1,35 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#content {
+  background-color: teal;
+  border: 5px solid brown;
+  height: 660px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div1 {
+  border: 2px solid rgb(158, 8, 252);
+  min-height: 500px;
+}
+
+.rows {
+  min-width: 800px;
+}
+
+td,
+th {
+  text-align: center;
+  width: 100px;
+  height: 50px;
+  color: white;
+  border: 3px solid rgb(15, 15, 16);
+}
+
+td:hover {
+  transform: translate(0px, -10px);
+}
